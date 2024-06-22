@@ -9,16 +9,62 @@
     <meta name="describe" content="收集不易，您的star是我坚持的动力，同时也欢迎各位PR哦! ">
     <link rel="icon" type="image/x-icon" href="https://cdn.jsdelivr.net/gh/sun0225SUN/photos/img/20210715233345.png">
     <link rel="stylesheet" href="css/love.css">
+    <style>
+        body {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: flex-start;
+            background-color: black;
+            color: white;
+            font-family: monospace;
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            overflow: hidden;
+        }
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 60%;
+            height: 100%;
+        }
+        .body_left img {
+            max-width: 100%;
+            height: auto;
+        }
+        .body_center {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+        }
+        .love .block {
+            position: relative;
+        }
+        .footer {
+            display: none;
+        }
+        .ascii-art {
+            width: 40%;
+            padding: 20px;
+            color: yellow;
+            white-space: pre;
+            font-size: 14px;
+        }
+        .green { color: green; }
+        .cyan { color: cyan; }
+        .yellow { color: yellow; }
+    </style>
 </head>
 
 <body>
-
-    <audio autoplay="autopaly" loop="loop" id="audios" preload="auto">
+    <audio autoplay="autoplay" loop="loop" id="audios" preload="auto">
         <source src="MP3/1.mp3" />
     </audio>
 
     <div class="container" onselectstart="return false;" unselectable="on" style="-moz-user-select:none;">
-
         <div class="body_left">
             <img src="images/biubiubiu.gif" alt="" ondragstart='return false;'>
         </div>
@@ -33,15 +79,43 @@
         </div>
     </div>
 
-    <div class="footer">
-        <div class="border">
-            <div class="border-top"></div>
-            <div class="border-bottom"></div>
-        </div>
+    <div class="ascii-art yellow">
+        _ooOoo_<br>
+        o8888888o<br>
+        88" . "88<br>
+        (| -_- |)<br>
+         O\\ = /O<br>
+     ____/`---'\\____<br>
+   .   ' \\\\| |// `.<br>
+    / \\\\||| : |||// \\<br>
+  / _||||| -:- |||||- \\<br>
+    | | \\\\\\ - /// | |<br>
+  | \\_| ''\\---/'' | |<br>
+   \\ .-\\__ `-` ___/-. /<br>
+___`. .' /--.--\\ `. . __<br>
+."" '< `.___\\_<|>_/___.' >'""."<br>
+| | : `- \\`.;`\\ _ /`;.`/ - ` : | |<br>
+ \\ \\ `-. \\_ __\\ /__ _/ .-` / /<br>
+ ======`-.____`-.___\\_____/___.-`____.-'======<br>
+        `=---='<br>
+    <div class="cyan">
+         .............................................<br>
+                  佛祖保佑 下注场场中！<br>
+          佛曰:<br>
+    </div>
+    <div class="green">
+          佛曰:<br>
+                 本场<br>
+                 法国让球-0/0.5 500 <br>
+                 上半场 荷兰0：法国1 50直接看死 <br>
+                 追加法国让球-0/0.5 500 <br>
+                 追加法国让球-0/0.5 500 <br>
+                 以下波胆3中1！<br>
+                 0:1 150 1:2 100 0:2 250 1:3 50<br>
+    </div>
     </div>
 
     <script type="text/javascript" src="js/love.js"></script>
 
 </body>
-
 </html>
