@@ -20,10 +20,18 @@
             white-space: pre;
             overflow: hidden;
         }
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
         .ascii-art {
             color: yellow;
             text-align: left;
             font-size: 12px; /* 确保字体大小一致 */
+        }
+        .biu {
+            margin-top: 20px;
         }
         .green { color: green; }
         .cyan { color: cyan; }
@@ -31,7 +39,8 @@
 </head>
 
 <body>
-    <div class="ascii-art">
+    <div class="container">
+        <div class="ascii-art">
 <span style="color: yellow;">
                             _ooOoo_<br>
                            o8888888o<br>
@@ -52,21 +61,25 @@
          ======`-.____`-.___\\_____/___.-`____.-'======<br>
                             `=---='<br>
 </span>
-    </div>
-    <div class="cyan">
-         .............................................<br>
-                  佛祖保佑 下注场场中！<br>
-          佛曰:<br>
-    </div>
-    <div class="green">
-          佛曰:<br>
-                 本场<br>
-                 法国让球-0/0.5 500 <br>
-                 上半场 荷兰0：法国1 50直接看死 <br>
-                 追加法国让球-0/0.5 500 <br>
-                 追加法国让球-0/0.5 500 <br>
-                 以下波胆3中1！<br>
-                 0:1 150 1:2 100 0:2 250 1:3 50<br>
+        </div>
+        <div class="cyan">
+             .............................................<br>
+                      佛祖保佑 下注场场中！<br>
+              佛曰:<br>
+        </div>
+        <div class="green">
+              佛曰:<br>
+                     本场<br>
+                     法国让球-0/0.5 500 <br>
+                     上半场 荷兰0：法国1 50直接看死 <br>
+                     追加法国让球-0/0.5 500 <br>
+                     追加法国让球-0/0.5 500 <br>
+                     以下波胆3中1！<br>
+                     0:1 150 1:2 100 0:2 250 1:3 50<br>
+        </div>
+        <div class="biu">
+            <img src="images/biubiubiu.gif" alt="biubiubiu" ondragstart='return false;'>
+        </div>
     </div>
 </body>
 </html>
