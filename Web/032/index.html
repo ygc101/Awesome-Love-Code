@@ -14,7 +14,6 @@
             color: yellow;
             margin: 0;
             font-family: 'Courier New', Courier, monospace;
-            overflow: auto;
         }
         .container {
             display: flex;
@@ -24,23 +23,8 @@
             padding: 10px;
             box-sizing: border-box;
         }
-        .content {
-            text-align: center;
-            white-space: pre;
-            width: 100%;
-            overflow: hidden;
-        }
-        .yellow-text {
-            color: yellow;
-        }
-        .cyan-text {
-            color: cyan;
-        }
-        .green-text {
-            color: green;
-        }
         .biu-img {
-            width: 100px; /* 固定图片宽度 */
+            width: 100px;
             height: auto;
             margin-bottom: 20px;
         }
@@ -49,29 +33,23 @@
             height: auto;
             border: none;
         }
+        .button {
+            margin-top: 20px;
+            padding: 10px 20px;
+            background-color: yellow;
+            color: black;
+            border: none;
+            cursor: pointer;
+            font-size: 16px;
+            font-family: 'Courier New', Courier, monospace;
+        }
     </style>
 </head>
 <body>
     <div class="container">
         <img src="biubiubiu.gif" alt="biu" class="biu-img">
-        <div class="content">
-            <img src="win11.png" alt="ASCII Art" class="ascii-img">
-            <div class="cyan-text">
-    .............................................
-            नन्वू वुत्तवः बुद्धानम्
-            कृपया विद्यापं जीवनायां प्रतिज्ञानं प्राप्तुं वेद्यताम्
-            रुच्छेद्यः सुख्तमा जीवनं च सम्पूर्णं धन्त्राश्चिकल्सं च
-            </div>
-            <div class="green-text">
-    बुद्धेवादे:
-            स्वतः अनुवादितायां चीनीया आगताम्
-                बोदानबी जोनगद्वारे
-                波胆上半场 罗马尼亚1:0 100 0：0 50
-                罗马尼亚受让1/1.5 1500 
-                बोदानबी जोनगद्वारे
-                罗马尼亚2:0 200 2:1 200 2:2 200 1:1 50
-            </div>
-        </div>
+        <img src="win11.png" alt="ASCII Art" class="ascii-img">
+        <button class="button" onclick="location.href='text.html'">查看文字</button>
     </div>
 </body>
 </html>
