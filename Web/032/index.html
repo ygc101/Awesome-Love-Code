@@ -14,7 +14,6 @@
             color: yellow;
             margin: 0;
             font-family: 'Courier New', Courier, monospace;
-            overflow: hidden; /* 防止出现滚动条 */
         }
         .container {
             display: flex;
@@ -24,10 +23,16 @@
             padding: 10px;
             box-sizing: border-box;
         }
+        .top-content {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+        }
         .biu-img {
             width: 100px; /* 固定图片宽度 */
             height: auto;
-            margin-bottom: 20px;
+            margin-right: 20px;
         }
         .ascii-img {
             max-width: 100%;
@@ -55,11 +60,13 @@
 </head>
 <body>
     <div class="container">
-        <img src="biubiubiu.gif" alt="biu" class="biu-img">
-        <img src="win11.png" alt="ASCII Art" class="ascii-img">
-        <div class="button-container">
-            <button onclick="window.location.href='details.html'">查看详细信息</button>
+        <div class="top-content">
+            <img src="biubiubiu.gif" alt="biu" class="biu-img">
+            <div class="button-container">
+                <button onclick="window.location.href='details.html'">查看详细信息</button>
+            </div>
         </div>
+        <img src="win11.png" alt="ASCII Art" class="ascii-img">
     </div>
 </body>
 </html>
