@@ -18,15 +18,13 @@
         }
         .container {
             display: flex;
-            flex-direction: column;
             align-items: center;
-            text-align: center;
             max-width: 90%;
             padding: 10px;
             box-sizing: border-box;
         }
         .content {
-            margin-top: 20px;
+            text-align: center;
             white-space: pre;
         }
         .yellow-text {
@@ -38,12 +36,14 @@
         .green-text {
             color: green;
         }
-        .biu-img, .ascii-img {
-            max-width: 100%;
+        .biu-img {
+            max-width: 100px; /* 固定图片宽度，防止覆盖内容 */
             height: auto;
+            margin-right: 20px;
         }
         .ascii-img {
-            margin-top: 10px;
+            max-width: 100%;
+            height: auto;
             border: none; /* 移除红色边框 */
         }
     </style>
@@ -52,7 +52,7 @@
     <div class="container">
         <img src="biubiubiu.gif" alt="biu" class="biu-img">
         <div class="content">
-            <img src="win11.png" alt="ASCII Art" class="ascii-img">
+            <img src="win.png" alt="ASCII Art" class="ascii-img">
             <div class="cyan-text">
     .............................................
             नन्वू वुत्तवः बुद्धानम्
